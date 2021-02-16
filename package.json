@@ -1,0 +1,23 @@
+{
+  "name": "danielschiffmanexample",
+  "version": "1.0.0",
+  "description": "multi drawing node example",
+  "main": "server.js",
+  "directories": {
+    "lib": "lib"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "keywords": [
+    "socket.io"
+  ],
+  "author": "martin daniel",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1",
+    "save": "^2.4.0",
+    "socket.io": "^3.1.1"
+  }
+}
