@@ -1,6 +1,7 @@
 var express = require('express');
 var app = express();
-var server = app.listen(3000);
+var server = app.listen(3000); // levanta el sv
+
 var socket = require('socket.io');
 var io = socket(server);
 var players = [];
